@@ -1,0 +1,119 @@
+a:lin
+{
+text-decoration: none;
+color: rgb(144,129,241);
+}
+
+a:visited
+{
+text-decoration: underline;
+color: rgb(144,129,241);
+}
+
+a:hover
+{
+text-decoration: underline;
+color: skyblue;
+}
+
+a:active
+{
+text-decoration: underline;
+color: hotpink;
+}
+
+.body{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+
+.background
+{
+width:15%;
+height:100%;
+background: rgba(0, 0, 0, 0.5);
+
+}
+
+.biankuang
+{
+border: 2px solid rgba(0, 0, 0, 1);
+border-radius: 5px;
+}
+.textset
+{
+color:rgba(	0,0,0,0.5);
+}
+.titleset
+{
+position: sticky;
+top: 0;
+background:rgba(0,0,0,0.5);
+width:100%;
+height:50px;
+margin:1px auto;
+color:rgba(	0,191,255,0.5);
+border: 2px solid rgba(0, 0, 0, 1);
+border-radius: 5px;
+}
+.login
+{
+left: 80%;
+position: absolute;
+top: 5px;
+font-size:30px;
+color:rgba(	0,0,0,0.5);
+}
+.register
+{
+left: 90%;
+position: absolute;
+top: 5px;
+font-size:30px;
+color:rgba(	0,0,0,0.5);
+}
+.box{
+    display:flex;
+    width: 90rem;
+    height: 20rem;
+    background-color:rgba(255,255,255,10%) ;
+    border-radius: 1.5rem;
+    margin: 1% auto;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 /10%);
+}
+.box .box{
+    display:inline-block;
+    width: 15rem;
+    height: 15rem;
+    background-color:rgba(255,255,255,11%) ;
+    border-radius: 1.5rem;
+    margin: 2% auto;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 /10%);
+    padding: 1rem 0 0 1.6rem;
+
+
+}
+
+.box1{
+    display:flex;
+    width: 90rem;
+    height: 20rem;
+    background-color:rgba(255,255,255,0%) ;
+    border-radius: 1.5rem;
+    margin: 1% auto;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 /10%);
+}
+.box1 .box1{
+    display:inline-block;
+    width: 20rem;
+    height: 20rem;
+    background-color:rgba(255,255,255,11%) ;
+    border-radius: 1.5rem;
+    margin: 2% auto;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 /10%);
+    text-align: center;
+
+
+}
